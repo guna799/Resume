@@ -1,0 +1,171 @@
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px 30px;
+    border-bottom: 5px solid #1a252f;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center; /* Center the header content */
+    align-items: center; /* Center vertically */
+}
+
+.header-info {
+    text-align: center; /* Center the text */
+    margin-right: auto; /* Allow space for the image */
+}
+
+.header-image {
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: makes it circular */
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px 30px;
+    border-bottom: 5px solid #1a252f;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between; /* Space between content */
+    align-items: center; /* Center vertically */
+}
+
+.header-info {
+    max-width: 90%; /* Adjust to control width of text */
+}
+
+.header-image {
+    width: 180px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: makes it circular */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #2c3e50; /* Darker blue/gray color */
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 5px solid #1a252f; /* Darker border */
+    font-family: 'Helvetica', sans-serif; /* Updated font style */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 1px; /* Slightly increased spacing */
+}
+
+h2 {
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    font-size: 1.8em;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.job {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 4px solid #2c3e50;
+    background-color: #f9f9f9;
+}
+
+.job h3 {
+    color: #2c3e50;
+}
+
+.job p {
+    margin: 5px 0;
+    font-style: italic;
+}
+
+.job ul {
+    list-style: none;
+    padding: 0;
+}
+
+.job ul li {
+    margin: 5px 0;
+    position: relative;
+}
+
+.job ul li::before {
+    content: "✔️";
+    position: absolute;
+    left: -20px;
+    color: #2c3e50;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50; /* Darker blue/gray color */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 30px;
+    font-family: 'Helvetica', sans-serif; /* Updated font style */
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+a {
+    color: #2980b9; /* Brighter link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.skills ul {
+    columns: 2; /* Creates a two-column layout */
+    column-gap: 20px; /* Gap between columns */
+}
+
+.skills ul li {
+    margin: 5px 0;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 5px solid #1a252f;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.header-image {
+    width: 150px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: makes it circular */
+    margin-bottom: 15px; /* Space below the image */
+}
